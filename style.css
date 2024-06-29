@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: rgb(35, 35, 36);
+    background-color: #2d3250;
     height: 100vh;
 }
 
@@ -27,14 +27,14 @@ h2.titulo {
 }
 
 h2.titulo span {
-    color: purple;
+    color: #7b8df5;
 }
 
 .btn-contato button {
     padding: 10px 40px;
     font-size: 18px;
     font-weight: 600;
-    background-color: blueviolet;
+    background-color: #f9b17a;
     border: 0;
     border-radius: 30px;
     cursor: pointer;
@@ -42,7 +42,7 @@ h2.titulo span {
 }
 
 button:hover, form .btn-enviar input:hover {
-    box-shadow: 0px 0px 8px rgba(137, 43, 226, 0.849);
+    box-shadow: 0px 0px 8px #f9b17aea;
     transform: scale(1.05);
 }
 
@@ -58,14 +58,14 @@ header > .interface {
 }
 
 header a {
-    color:rgb(79, 80, 80);
+    color: #fff;
     text-decoration: none;
     display: inline-block;
     transition: .2s;
 }
 
 header nav.menu-desktop a:hover {
-color: beige;
+color: #fff;
 transform: scale(1.05);
 }
 
@@ -80,12 +80,12 @@ header nav.menu-desktop ul li {
 
 /* Menu Mobile */
 .btn-abrir-menu i {
-    color:aqua;
+    color: #f9b17a;
     font-size: 40px;
 }
 
 .menu-mobile {
-    background-color: aqua;
+    background-color: #424769;
     height: 100vh;
     position: fixed;
     top: 0;
@@ -109,7 +109,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i {
-    color: purple;
+    color: #f9b17a;
     font-size: 30px;
 }
 
@@ -126,7 +126,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile nav ul li a:hover {
-    background-color: rgb(255, 127, 244);
+    background-color: #f9b17a;
     color: #080808;
 }
 
@@ -163,7 +163,7 @@ section.topo-site .flex {
 }
 
 .topo-site .txt-topo-site h1 span {
-    color:rgba(137, 43, 226, 0.849);
+    color: #7b8df5;
 }
 
 .topo-site .txt-topo-site p {
@@ -209,7 +209,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box i {
     font-size: 70px;
-    color: purple;
+    color: #7b8df5;
     margin: 0 100px;
 }
 
@@ -239,7 +239,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre h2 span {
-    color: purple;
+    color: #7b8df5;
     display: block;
 }
 
@@ -253,7 +253,7 @@ section.sobre .flex {
     height: 60px;
     border-radius: 50%;
     border: none;
-    background-color: purple;
+    background-color: #7b8df5;
     font-size: 22px;
     cursor: pointer;
     margin: 0 5px;
@@ -325,7 +325,7 @@ form {
 
 form input, form textarea {
     width: 100%;
-    background-color: rgb(61, 60, 60);
+    background-color: #424769;
     border: 0;
     outline: 0;
     padding: 20px 15px;
@@ -346,7 +346,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
 width: 120px;
-background-color: purple;
+background-color: #f9b17a;
 color:rgba(0, 0, 0, 0.788);
 font-weight: 700;
 cursor: pointer;
@@ -368,7 +368,7 @@ footer .line-footer {
 }
 
 .borda {
-    border-bottom: 2px solid purple;
+    border-bottom: 2px solid #f9b17a;
 }
 
 footer .line-footer p i {
