@@ -1,8 +1,8 @@
 <?php
 
-    $nome = addcslashes($_POST['nome']);
-    $email = addcslashes($_POST['email']);
-    $telefone = addcslashes($_POST['telefone']);
+    $nome = htmlspecialchars($_POST['nome']);
+    $email = htmlspecialchars($_POST['email']);
+    $telefone = htmlspecialchars($_POST['telefone']);
 
     $para = "danniele.oliveiras@gmail.com";
     $assunto = "Contato Cliente - Portfólio";
