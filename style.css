@@ -26,7 +26,7 @@ html{
 
 h2.titulo {
     color: #fff;
-    font-size: 38px;
+    font-size: 40px;
     text-align: center;
 }
 
@@ -36,7 +36,7 @@ h2.titulo span {
 
 .btn-contato button {
     padding: 10px 40px;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 600;
     background-color: #f9b17a;
     border: 0;
@@ -173,6 +173,7 @@ section.topo-site .flex {
 .topo-site .txt-topo-site p {
     color: #ffff;
     padding: 40px 0;
+    font-size: 25px;
 }
 
 .topo-site .img-topo-site img {
@@ -201,6 +202,8 @@ section.especialidades .flex {
 .especialidades .especialidades-box {
     color: #fff;
     padding: 40px;
+    width: 370px;
+    height: 470px;
     border-radius: 20px;
     margin-top: 45px;
     transition: .2s;
@@ -218,8 +221,13 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box h3 {
-    font-size:28px;
+    font-size: 35px;
     margin: 15px 0;
+}
+
+.especialidades .especialidades-box p{
+    font-size: 20px;
+    text-align: justify;
 }
 
 /* Sobre */
@@ -250,6 +258,7 @@ section.sobre .flex {
 .sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
+    font-size: 25px;
 }
 
 .btn-social button {
