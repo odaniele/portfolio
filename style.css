@@ -174,11 +174,14 @@ section.topo-site .flex {
     color: #ffff;
     padding: 40px 0;
     font-size: 25px;
+    text-align: justify;
 }
 
 .topo-site .img-topo-site img {
     position: relative;
     animation: flutuar 2s ease-in-out infinite alternate;
+    border-radius: 10%;
+    width: 100%;
 }
 
 @keyframes flutuar{
@@ -259,6 +262,10 @@ section.sobre .flex {
     margin: 20px 0;
     text-align: justify;
     font-size: 25px;
+}
+
+.sobre img{
+    border-radius: 10%;
 }
 
 .btn-social button {
