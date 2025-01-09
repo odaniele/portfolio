@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: "Afacad", sans-serif;
+    font-family: "Montserrat", sans-serif;
     font-style: normal;     
 }
 
@@ -35,12 +35,12 @@ h2.titulo span {
 }
 
 .btn-contato button {
-    padding: 10px 40px;
+    padding: 10px 20px;
     font-size: 20px;
     font-weight: 600;
-    background-color: #f9b17a;
+    background-color: #8bd878;
     border: 0;
-    border-radius: 30px;
+    border-radius: 15px;
     cursor: pointer;
     transition: .2s;
 }
@@ -52,7 +52,9 @@ button:hover, form .btn-enviar input:hover {
 
 /* Estilo cabeçalho */
 header {
-    padding: 40px 4%;
+    height: 15vh;
+    padding: 20px 4%;
+    background-color: #424769;
 }
 
 header > .interface {
@@ -84,7 +86,7 @@ header nav.menu-desktop ul li {
 
 /* Menu Mobile */
 .btn-abrir-menu i {
-    color: #f9b17a;
+    color: #7b8df5;
     font-size: 40px;
 }
 
@@ -231,6 +233,8 @@ section.especialidades .flex {
 .especialidades .especialidades-box p{
     font-size: 20px;
     text-align: justify;
+    word-spacing: -0.1em;
+
 }
 
 /* Sobre */
@@ -261,7 +265,7 @@ section.sobre .flex {
 .sobre .txt-sobre p {
     margin: 20px 0;
     text-align: justify;
-    font-size: 25px;
+    font-size: 20px;
 }
 
 .sobre img{
@@ -366,7 +370,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
 width: 120px;
-background-color: #f9b17a;
+background-color: #8bd878;
 color:rgba(0, 0, 0, 0.788);
 font-weight: 700;
 cursor: pointer;
@@ -375,29 +379,39 @@ transition: .2s;
 
 /* Rodapé */
 footer {
-    padding: 40px 4%;
+    padding: 8px 4%;
     box-shadow: 0 0 40px 10px #ffffff1d;
+
 }
 
 footer .flex {
-    justify-content: space-between;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
+
+
 
 footer .line-footer {
     padding: 20px 0;
+    display: flex;
+    flex-direction: column;
 }
 
 .borda {
-    border-bottom: 2px solid #f9b17a;
+    border-bottom: 2px solid #8bd878;
 }
 
 footer .line-footer p i {
     color: #fff;
     font-size: 22px;
+    margin-left: 490px;
 }
 
 footer .line-footer p a {
     color:#fff;
+    
+
 }
 
 /* Responsividade */
