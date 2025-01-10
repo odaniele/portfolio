@@ -1,40 +1,33 @@
 <?php
+  //Variáveis
+    $nome = $_POST['nome'];
+    $email = $_POST['email'];
+    $telefone = $_POST['telefone'];
+    $mensagem = $_POST['mensagem'];
+    $data_envio = date('d/m/Y');
+    $hora_envio = date('H:i:s');
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-
+    //Compo E-mail
+    $arquivo = "
+        <html>
+        <p><b>Nome: </b>$nome</p>
+        <p><b>E-mail: </b>$email</p>
+        <p><b>Mensagem: </b>$mensagem</p>
+        <p>Este e-mail foi enviado em <b>$data_envio</b> às <b>$hora_envio</b></p>
+        </html>
+    ";
     
-    $nome = htmlspecialchars(trim($_POST['nome']));
-    $email = htmlspecialchars(trim($_POST['email']));
-    $telefone = htmlspecialchars(trim($_POST['telefone']));
+    //Emails para quem será enviado o formulário
+    $destino = "danniele.oliveiras@gmail.com";
+    $assunto = "Contato pelo Site";
 
+    //Este sempre deverá existir para garantir a exibição correta dos caracteres
+    $headers  = "MIME-Version: 1.0\n";
+    $headers .= "Content-type: text/html; charset=iso-8859-1\n";
+    $headers .= "From: $nome <$email>";
+
+    //Enviar
+    mail($destino, $assunto, $arquivo, $headers);
     
-    if (empty($nome) || empty($email) || empty($telefone)) {
-        echo "Por favor, preencha todos os campos.";
-        exit;
-    }
-
-    
-    if (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        echo "Por favor, insira um e-mail válido.";
-        exit;
-    }
-
-    
-    $para = "danniele.oliveiras@gmail.com"; 
-    $assunto = "Contato Cliente - Portfólio";
-    $corpo = "Nome: $nome\nE-mail: $email\nTelefone: $telefone";
-
-    $cabeca = "From: danniele.oliveiras@gmail.com\r\n";
-    $cabeca .= "Reply-To: $email\r\n";
-    $cabeca .= "Content-Type: text/plain; charset=UTF-8\r\n";
-
-
-    if (mail($para, $assunto, $corpo, $cabeca)) {
-        echo "E-mail enviado com sucesso!";
-    } else {
-        echo "Houve um erro ao enviar o e-mail. Por favor, tente novamente.";
-    }
-} else {
-    echo "Método de requisição inválido.";
-}
-?>
+    echo "<meta http-equiv='refresh' content='10;URL=../contato.html'>";
+    ?>
