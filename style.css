@@ -7,7 +7,7 @@
 }
 
 body {
-    background-color: #2d3250;
+    background-color: #dacfdb;
     height: 100vh;
 }
 
@@ -25,20 +25,20 @@ html{
 }
 
 h2.titulo {
-    color: #fff;
+    color: #706b6b;
     font-size: 40px;
     text-align: center;
 }
 
 h2.titulo span {
-    color: #7b8df5;
+    color: #E8AE74;
 }
 
 .btn-contato button {
     padding: 10px 20px;
     font-size: 20px;
     font-weight: 600;
-    background-color: #8bd878;
+    background-color: #dba8d0;
     border: 0;
     border-radius: 15px;
     cursor: pointer;
@@ -54,7 +54,7 @@ button:hover, form .btn-enviar input:hover {
 header {
     height: 15vh;
     padding: 20px 4%;
-    background-color: #424769;
+    background-color: #737691;
 }
 
 header > .interface {
@@ -115,7 +115,7 @@ header nav.menu-desktop ul li {
 }
 
 .menu-mobile .btn-fechar i {
-    color: #f9b17a;
+    color: #eb82dd;
     font-size: 30px;
 }
 
@@ -163,17 +163,17 @@ section.topo-site .flex {
 }
 
 .topo-site h1 {
-    color: #fff;
+    color: #737691;
     font-size: 42px;
     line-height: 40px;
 }
 
 .topo-site .txt-topo-site h1 span {
-    color: #7b8df5;
+    color: #eb85dd;
 }
 
 .topo-site .txt-topo-site p {
-    color: #ffff;
+    color: #575968;
     padding: 40px 0;
     font-size: 25px;
     text-align: justify;
@@ -205,7 +205,7 @@ section.especialidades .flex {
 }
 
 .especialidades .especialidades-box {
-    color: #fff;
+    color: #575968;
     padding: 40px;
     width: 370px;
     height: 470px;
@@ -216,7 +216,7 @@ section.especialidades .flex {
 
 .especialidades .especialidades-box:hover {
     transform: scale(1.05);
-    box-shadow: 0 0 8px #ffffff67;
+    box-shadow: 0 0 8px #e244d567;
 }
 
 .especialidades .especialidades-box i {
@@ -248,7 +248,7 @@ section.sobre .flex {
 }
 
 .sobre .txt-sobre {
-    color: #fff;
+    color: #575968;
 }
 
 .sobre .txt-sobre h2 {
@@ -287,7 +287,7 @@ section.sobre .flex {
 /* Portfolio */
 section.portfolio {
     padding: 80px 4%;
-    box-shadow: 0 0 40px 10px #ffffff17;
+    box-shadow: 0 0 40px 10px #da853517;
 }
 
 section.portfolio .flex {
@@ -370,7 +370,7 @@ form .btn-enviar {
 
 form .btn-enviar input {
 width: 120px;
-background-color: #8bd878;
+background-color: #dba8d0;
 color:rgba(0, 0, 0, 0.788);
 font-weight: 700;
 cursor: pointer;
@@ -380,7 +380,7 @@ transition: .2s;
 /* Rodapé */
 footer {
     padding: 8px 4%;
-    box-shadow: 0 0 40px 10px #ffffff1d;
+    box-shadow: 0 0 40px 10px #da853517;
 
 }
 
@@ -399,17 +399,17 @@ footer .line-footer {
 }
 
 .borda {
-    border-bottom: 2px solid #8bd878;
+    border-bottom: 2px solid #dba8d0;
 }
 
 footer .line-footer p i {
-    color: #fff;
+    color: #575968;
     font-size: 22px;
     margin-left: 490px;
 }
 
 footer .line-footer p a {
-    color:#fff;
+    color: #575968;
     
 
 }
